@@ -15,7 +15,7 @@ public class Palindromo {
             return revisarRecursivo(cadena.substring(1, cadena.length()-1));
         return true;
     }
-    
+    //Comentario de prueba aquiiiiiii
     private String formatearString(String s) {
         /*Salvamos las ñ*/
         s = s.replace('ñ', '\001');
